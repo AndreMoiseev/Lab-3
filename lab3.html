@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Lab_3</title>
+    </head>
+    <body>
+        <form>
+            <h1>Pizza Shop 2.0</h1>
+            <hr>
+            <br>
+            <fieldset>
+                <label>
+                    Прізвище Ім'я:
+                    <input type="text" name="fullName" placeholder="Моісеєв Андрій" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h3>
+                        Начинка для піци:
+                    </h3>
+                </legend>
+                <label>
+                    <input type="radio" name="pizzaToping" value="cheese">
+                    Сирна
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="pizzaToping" value="vegetarian">
+                    Вегетеріанська
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="pizzaToping" value="hawaiian">
+                    Гавайська
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label>
+                    Соус для піци: 
+                </label>
+                <select name="pizzaSauce">
+                    <option value="tomato">
+                        Томатний
+                    </option>
+                    <option value="tabasco">
+                        Табаско
+                    </option>
+                    <option value="spicy">
+                        Гострий
+                    </option>
+                    <option value="honey">
+                        Медовий
+                    </option>
+                    <option value="ketchup">
+                        Кетчуп
+                    </option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label>
+                    Додаткові опції:
+                </label>
+                <label>
+                    <input type="checkbox" name="optionalExtras" value="extraCheese">
+                    Додатковий сир
+                </label>
+                <label>
+                    <input type="checkbox" name="optionalExtras" value="glutenFreeBase">
+                    Безглютенова основа
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>
+                    Інструкція для доставки:
+                </legend>
+                <textarea name="deliveryInstructions" placeholder="м. Київ, вул. Хрещатик, буд. 1, кв. 1" required></textarea>
+            </fieldset>
+            <br>
+            <button>
+                Надіслати замовлення
+            </button>
+        </form>
+    </body>
+</html>
